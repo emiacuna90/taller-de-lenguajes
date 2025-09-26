@@ -1,0 +1,48 @@
+
+
+evaluaciones = [
+    # Ronda 1
+    {
+        'EquipoA': {'innovacion': 2, 'presentacion': 1, 'errores': True},#6
+        'EquipoB': {'innovacion': 1, 'presentacion': 0, 'errores': False},
+        'EquipoC': {'innovacion': 1, 'presentacion': 2, 'errores': True},
+        'EquipoD': {'innovacion': 0, 'presentacion': 1, 'errores': False},
+        'EquipoE': {'innovacion': 1, 'presentacion': 1, 'errores': False}
+    },
+
+    # Ronda 2
+    {
+        'EquipoA': {'innovacion': 0, 'presentacion': 2, 'errores': False},#2
+        'EquipoB': {'innovacion': 2, 'presentacion': 0, 'errores': True},
+        'EquipoC': {'innovacion': 1, 'presentacion': 1, 'errores': False},
+        'EquipoD': {'innovacion': 2, 'presentacion': 1, 'errores': True},
+        'EquipoE': {'innovacion': 0, 'presentacion': 1, 'errores': False}
+    },
+
+    # Ronda 3
+    {
+        'EquipoA': {'innovacion': 3, 'presentacion': 2, 'errores': False},#11
+        'EquipoB': {'innovacion': 1, 'presentacion': 1, 'errores': True},
+        'EquipoC': {'innovacion': 2, 'presentacion': 0, 'errores': False},
+        'EquipoD': {'innovacion': 1, 'presentacion': 3, 'errores': True},
+        'EquipoE': {'innovacion': 2, 'presentacion': 2, 'errores': False}
+    },
+
+    # Ronda 4
+    {
+        'EquipoA': {'innovacion': 1, 'presentacion': 3, 'errores': True},#5
+        'EquipoB': {'innovacion': 2, 'presentacion': 2, 'errores': False},
+        'EquipoC': {'innovacion': 3, 'presentacion': 1, 'errores': False},
+        'EquipoD': {'innovacion': 0, 'presentacion': 2, 'errores': True},
+        'EquipoE': {'innovacion': 2, 'presentacion': 0, 'errores': False}
+    },
+
+    # Ronda 5
+    {
+        'EquipoA': {'innovacion': 2, 'presentacion': 2, 'errores': False},#8
+        'EquipoB': {'innovacion': 1, 'presentacion': 3, 'errores': True},
+        'EquipoC': {'innovacion': 0, 'presentacion': 2, 'errores': False},
+        'EquipoD': {'innovacion': 3, 'presentacion': 1, 'errores': False},
+        'EquipoE': {'innovacion': 2, 'presentacion': 3, 'errores': True}
+    }
+]
