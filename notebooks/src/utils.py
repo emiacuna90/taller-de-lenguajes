@@ -60,12 +60,12 @@ def mostrar_tabla(stats_dict: dict, titulo):
        :param titulo: Titulo de la tabla.
     """
     print(titulo)
-    print(f"{'Equipo':<10} {'Inno':<5} {'Pres':<5} {'Err':<5} {'MER':<5} {'Total':<5}")
-    print("-" * 40)
+    print(f"{'Equipo':<10} {'Innovacion':<15} {'Presentacion':<15} {'Errores':<10} {'Mejores':<10} {'Total':<5}")
+    print("-" * 70)
 
     #Lista de tuplas ordenadas equipo:dict de stats
     ordenados = sorted(stats_dict.items(), key=lambda x: x[1]["puntos"], reverse=True)
     for equipo, stats in ordenados:
-        print(f"{equipo:<10} {stats.get('innovacion', 0):<5} "
-              f"{stats.get('presentacion', 0):<5} {stats.get('errores', 0):<5} "
-              f"{stats.get('mejores', 0):<5} {stats['puntos']:<5}")
+        print(f"{equipo:<10} {stats.get('innovacion', 0):<15} "
+              f"{stats.get('presentacion', 0):<15} {stats.get('errores', 0):<10} "
+              f"{stats.get('mejores', 0):<10} {stats['puntos']:<5}")
